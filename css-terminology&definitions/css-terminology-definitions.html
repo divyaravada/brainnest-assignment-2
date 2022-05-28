@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Terminology & Definitions</title>
+    <link rel="stylesheet" href="./css-terminology-definitions.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar dropdown">
+            <img src="../images/Veera.png" class="logo" alt="logo of the website">
+            <nav>
+                <ul id="menuList" class="dropdown-content">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../colors/colors.html">Colors</a></li>
+                <li><a href="../links&images/links-images.html">Links & Images</a></li>
+                <li><a href="../css-terminology&definitions/css-terminology-definitions.html">CSS Terminology & Definitions</a></li></ul>
+            </nav>
+            <img src="../images/list.png" class="menu-icon dropbtn" alt="hamburger icon">
+        </div>
+    
+        <h1 class="definitionsHeading">CSS</h1>
+
+       <ol class="cssQuestAns">
+           <li>
+               <h3>What are the main differences between external, internal, and inline CSS?</h3>
+               <p>Inline CSS is processed faster as it only requires the browser to download 1 file while using external CSS will require downloading HTML and CSS files separately</p>
+           </li>
+           <li>
+            <h3>What is the syntax for class and ID selectors?</h3>
+            <p>write a hash (#) character, followed by the id of the element.</p>
+            <p>write a period (.) character, followed by the name of the class.</p>
+        </li>
+        <li>
+            <h3>How would you apply a single rule to two different selectors?</h3>
+            <p>h1.some, h2.some, h3.some {/*some style*/}</p>
+        </li>
+        <li>
+            <h3>Given an element that has an id of title and a class of primary, how would you use both
+                attributes for a single rule?</h3>
+            <p>Yes, an element can have one ID (which must be unique!) and multiple classes at the same time. </p>
+        </li>
+        <li>
+            <h3>What does the descendant combinator do?</h3>
+            <p>combines two selectors such that elements matched by the second selector are selected if they have an ancestor (parent, parent's parent, parent's parent's parent, etc) element matching the first selector.</p>
+        </li>
+        <li>
+            <h3>Between a rule that uses one class selector and a rule that uses three type selectors,
+                which rule has the higher specificity?</h3>
+            <p>ID selectors: ID selectors are the most specific</p>
+        </li>
+        <li>
+            <h3>From inside to outside, what is the order of box-model properties?</h3>
+            <p>Content - The content of the box, where text and images appear</p>
+            <p>Padding - Clears an area around the content. The padding is transparent</p>
+            <p>Border - A border that goes around the padding and content</p>
+            <p>Margin - Clears an area outside the border. The margin is transparent</p>
+        </li>
+        <li>
+            <h3>What does the box-sizing CSS property do?</h3>
+            <p>sets how the total width and height of an element is calculated.</p>
+        </li>
+        <li>
+            <h3>What is the difference between the standard and alternative box model?</h3>
+            <p>If you are using the standard box model, the size of the border is added to the width and height of the box. If you are using the alternative box model then the size of the border makes the content box smaller as it takes up some of that available width and height .</p>
+        </li>
+        <li>
+            <h3>Would you use margin or padding to create more space between 2 elements?</h3>
+            <p>Use margins when you're adjusting the spacing of an element in relation to another element</p>
+        </li>
+        <li>
+            <h3>Would you use margin or padding to create more space between the contents of an
+                element and its border?</h3>
+            <p>Use margins when you're adjusting the spacing of an element in relation to another element</p>
+        </li>
+        <li>
+            <h3>Would you use margin or padding if you wanted two elements to overlap each other?</h3>
+            <p>To ensure that other elements aren't too close to the element in question.</p>
+        </li>
+        <li>
+            <h3>What is the difference between a block element and an inline element?</h3>
+            <p>Block Elements occupy the full width irrespective of their sufficiency. Inline elements don't start in a new line.</p>
+        </li>
+        <li>
+            <h3>What is the difference between an inline element and an inline-block element?</h3>
+            <p>Inline elements do not force a new line to begin in the document flow. Block elements, on the other hand, typically cause a line break to occur</p>
+        </li>
+        <li>
+            <h3>Is an h1 block or inline?</h3>
+            <p>block elements.</p>
+        </li>
+        <li>
+            <h3>Is button block or inline?</h3>
+            <p>inline-block</p>
+        </li>
+        <li>
+            <h3>Is div block or inline?</h3>
+            <p>block elements.</p>
+        </li>
+        <li>
+            <h3>Is span block or inline?</h3>
+            <p>inline element</p>
+        </li> <li>
+            <h3>What’s the difference between a flex container and a flex item?</h3>
+            <p></p>
+        </li>
+        <li>
+            <h3>How do you create a flex item??</h3>
+            <p>Flexbox allows fine-tuning of alignments to ensure exact specification sharing. Flex Direction allows developers to align elements vertically or horizontally, which is used when developers create and reverse rows or columns.</p>
+        </li>
+        <li>
+            <h3>What are the 3 values defined in the shorthand flex property?</h3>
+            <p>which are the shorthand values for flex-grow flex-shrink flex-basis respectively 1 1 0%</p>
+        </li>
+        <li>
+            <h3>How do you make flex items arrange themselves vertically instead of horizontally?</h3>
+            <p>flex-start : align to the top of the container.</p><p>flex-end : align to the bottom of the container.</p>
+            <p>center : align at the vertical center of the container.</p><p>baseline : display at the baseline of the container.</p><p>stretch : items are stretched to fit the container.</p>
+        </li>
+        <li>
+            <h3>What is the difference between justify-content and align-items?</h3>
+            <p>justify-content — controls alignment of all items on the main axis. align-items — controls alignment of all items on the cross axis.</p>
+        </li>
+        <li>
+            <h3>How do you use flexbox to completely center a div inside a flex container?</h3>
+            <p>By adding the display: flex; property we make the section element a flex container allowing us to adjust the layout of the div which is now a flex item.</p>
+        </li>
+        
+        <li>
+            <h3>What’s the difference between justify-content: space-between and justify-content:
+                space-around?</h3>
+            <p>space-between : items are evenly distributed in the line; first item is on the start line, last item on the end line.</p><p>space-around : items are evenly distributed in the line with equal space around them.</p>
+        </li>
+       </ol> 
+    </div>
+</body>
+</html>

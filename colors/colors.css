@@ -1,0 +1,56 @@
+.colors h1{
+    border: 2px solid rgb(222, 74, 48);
+    padding: 25px;
+    margin: 25px;
+    color: rgb(148, 67, 9);
+    background-color: rgb(240, 228, 180);
+}
+.colors h2{
+    border: 2px solid #4dd371;
+    padding: 25px;
+    margin: 25px;
+    color: #e99f31;
+    background-color: #fad592;
+}
+.colors h3{
+    border: 2px solid #282300;
+    padding: 25px;
+    margin: 25px;
+    color: #c14979;
+    background-color: hsla(9, 100%, 64%, 0.5);
+}
+.colors h4{
+    border: 2px solid#510400;
+    padding: 25px;
+    margin: 25px;
+    color: #bfaa8c;
+    background-color: #363003;
+}
+.colors h1 a{
+    text-decoration: none;
+   display: flex;
+   float: right;
+   font-size: .5em;
+
+}
+.colors h2 a{
+    text-decoration: none;
+   display: flex;
+   float: right;
+   font-size: .65em;
+
+}
+.colors h3 a{
+    text-decoration: none;
+   display: flex;
+   float: right;
+   font-size: .85em;
+
+}
+.colors h4 a{
+    text-decoration: none;
+   display: flex;
+   float: right;
+   font-size: 1em;
+
+}
